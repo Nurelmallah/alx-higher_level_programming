@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
-    new = set(my_list)
-    result = 0
-    for i in new:
-        result += i
-    return result
+
+def common_elements(set_1, set_2):
+    """Return a set of common elements in two sets."""
+    return (set_1 & set_2)
